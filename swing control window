@@ -1,4 +1,4 @@
-//First off, here’s the ProcessingSketch class:
+//Firsly , here’s the ProcessingSketch class:
 import processing.core.PApplet;
 
 public class ProcessingSketch extends PApplet{
@@ -112,3 +112,8 @@ public class Main {
 		swingGui.show();
 	}
 }
+//This class just creates the instances of the ProcesingSketch and SwingGui classes, passing theProcessingSketch instance into the SwingGui 
+constructor. Then it calls the run() and show() functions to display screen like in screenshot file (swingcontrolwindowbefore)
+//when the user clicks a button, a color picker appears like in screenshot (swingcontrolwindowinprocess)
+//when a user picks a color from it,code communicates that color from Swing to Processing and the color in Processing scketch
+changes like in screenshot (swingcontrolwindowafter)
